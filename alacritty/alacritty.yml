@@ -1,0 +1,107 @@
+# Color schemes.
+schemes:
+  oxocarbon: &oxocarbon
+    name: Oxocarbon
+    primary:
+      background: "#080808"
+      foreground: "#ffffff"
+    normal:
+      black:   "#262626"
+      white:   "#dde1e6"
+      red:     "#ee5396"
+      green:   "#42be65"
+      blue:    "#33b1ff"
+      yellow:  "#ffe97b"
+      magenta: "#ff7eb6"
+      cyan:    "#3ddbd9"
+    bright:
+      black:   "#393939"
+      white:   "#ffffff"
+      red:     "#ee5396"
+      green:   "#42be65"
+      blue:    "#33b1ff"
+      yellow:  "#ffe97b"
+      magenta: "#ff7eb6"
+      cyan:    "#3ddbd9"
+  yoru: &yoru
+    name: Yoru
+    primary:
+      background: "#060809"
+      foreground: "#edeff0"
+    normal:
+      black:   "#232526"
+      white:   "#e4e6e7"
+      red:     "#df5b61"
+      green:   "#78b892"
+      blue:    "#6791c9"
+      yellow:  "#de8f78"
+      magenta: "#bc83e3"
+      cyan:    "#67afc1"
+    bright:
+      black:   "#2c2e2f"
+      white:   "#f2f4f5"
+      red:     "#e8646a"
+      green:   "#81c19b"
+      blue:    "#709ad2"
+      yellow:  "#e79881"
+      magenta: "#c58cec"
+      cyan:    "#70b8ca"
+  moonfly: &moonfly
+    name: Moonfly
+    primary:
+      background: "#080808"
+      foreground: "#bdbdbd"
+    normal:
+      black:   "#323437"
+      white:   "#c6c6c6"
+      red:     "#ff5454"
+      green:   "#8cc85f"
+      blue:    "#80a0ff"
+      yellow:  "#e3c78a"
+      magenta: "#cf87e8"
+      cyan:    "#79dac8"
+    bright:
+      black:   "#949494"
+      white:   "#e4e4e4"
+      red:     "#ff5189"
+      green:   "#36c692"
+      blue:    "#74b2ff"
+      yellow:  "#c2c292"
+      magenta: "#ae81ff"
+      cyan:    "#85dc85"
+colors: *oxocarbon
+
+# Font options.
+font:
+  normal:
+    family: Hack Nerd Font Mono
+    style:  Regular
+  bold:
+    family: Hack Nerd Font Mono
+    style:  Bold
+  italic:
+    family: Hack Nerd Font Mono
+    style:  Italic
+  size: 11.0
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+# Window options.
+window:
+  opacity: 1
+  padding:
+    x: 12
+    y: 12
+  dynamic_title: true
+
+# Keybind options.
+key_bindings:
+  - { key: C,      mods: Control|Shift, action: Copy }
+  - { key: V,      mods: Control|Shift, action: Paste }
+  - { key: Equals, mods: Control,       action: IncreaseFontSize }
+  - { key: Minus,  mods: Control,       action: DecreaseFontSize }
+  - { key: Key0,   mods: Control,       action: ResetFontSize }
