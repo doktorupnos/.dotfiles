@@ -5,7 +5,8 @@
 ### ✶ [Packer](https://github.com/wbthomason/packer.nvim) Plugin Manager
 
 ```
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
 Once you've installed the plugin manager, run the `:so` and `:PackerSync` commands inside neovim.
@@ -27,6 +28,7 @@ Once you've installed the plugin manager, run the `:so` and `:PackerSync` comman
 - [Toggleterm](https://github.com/akinsho/toggleterm.nvim)
 - [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
+- [Colorizer](https://github.com/norcalli/nvim-colorizer.lua)
 - [Moonfly](https://github.com/bluz71/vim-moonfly-colors)
 
 ### ✶ Keybindings.
@@ -44,6 +46,7 @@ Spacebar is set as the default mapleader.
 <leader>gs : Git status (:Telescope git_status)
 <leader>s  : Select tab (:BufferLinePick)
 <leader>x  : Close tab (:BufferLinePickClose)
+<leader>c  : Toggle colorizer (:ColorizerToggle)
 <C-s>      : Save file (:w)
 <C-a>      : Select whole document (<esc>ggVG)
 <C-\>      : Toggle terminal (Toggleterm)

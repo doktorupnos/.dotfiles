@@ -13,7 +13,8 @@ wk.register({
 			"Git"
 		},
 		s = { "<cmd>BufferLinePick<cr>", "Select tab" },
-		x = { "<cmd>BufferLinePickClose<cr>", "Close tab" }
+		x = { "<cmd>BufferLinePickClose<cr>", "Close tab" },
+		c = { "<cmd>ColorizerToggle<cr>", "Toggle colorizer" }
 	},
 	["<C-s>"] = { "<cmd>w<cr>", "Save file" },
 	["<C-a>"] = { "<esc>ggVG", "Select whole document" },

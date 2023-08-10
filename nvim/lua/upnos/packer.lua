@@ -61,6 +61,8 @@ return require('packer').startup(function(use)
 	}
 	-- Bufferline
 	use { 'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons' }
+	-- Colorizer
+	use { 'norcalli/nvim-colorizer.lua' }
 	-- Moonfly
 	use { "bluz71/vim-moonfly-colors", as = "moonfly" }
 end)
