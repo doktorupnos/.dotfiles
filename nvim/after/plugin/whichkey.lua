@@ -2,7 +2,6 @@ local wk = require("which-key")
 wk.register({
 	["<leader>"] = {
 		q = { "<cmd>qa!<cr>", "Force quit" },
-		a = { "<cmd>Alpha<cr>", "Alpha menu" },
 		e = { "<cmd>NvimTreeToggle<cr>", "File explorer" },
 		f = { "<cmd>Telescope find_files<cr>", "File finder" },
 		F = { "<cmd>Telescope live_grep<cr>", "Grep finder" },

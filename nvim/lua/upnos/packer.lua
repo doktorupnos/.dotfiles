@@ -33,22 +33,15 @@ return require('packer').startup(function(use)
 			{ 'williamboman/mason-lspconfig.nvim' },
 			{ 'hrsh7th/nvim-cmp' },
 			{ 'hrsh7th/cmp-nvim-lsp' },
-			{ 'L3MON4D3/LuaSnip' },
+			{ 'L3MON4D3/LuaSnip' }
 		}
-	}
-	-- Alpha Nvim
-	use {
-		'goolord/alpha-nvim',
-		config = function()
-			require 'alpha'.setup(require 'alpha.themes.dashboard'.config)
-		end
 	}
 	-- Nvim-Tree
 	use {
 		'nvim-tree/nvim-tree.lua',
 		requires = {
 			'nvim-tree/nvim-web-devicons',
-		},
+		}
 	}
 	-- Toggleterm
 	use { "akinsho/toggleterm.nvim", tag = '*', config = function()
@@ -65,4 +58,6 @@ return require('packer').startup(function(use)
 	use { 'norcalli/nvim-colorizer.lua' }
 	-- Moonfly
 	use { "bluz71/vim-moonfly-colors", as = "moonfly" }
+	-- Transparent Nvim
+	use({ "xiyaowong/nvim-transparent" })
 end)

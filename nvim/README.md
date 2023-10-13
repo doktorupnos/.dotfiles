@@ -23,7 +23,6 @@ Once you've installed the plugin manager, run the `:so` and `:PackerSync` comman
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Which Key](https://github.com/folke/which-key.nvim)
 - [LSP Zero](https://github.com/VonHeikemen/lsp-zero.nvim)
-- [Alpha Nvim](https://github.com/goolord/alpha-nvim)
 - [Nvim-Tree](https://github.com/nvim-tree/nvim-tree.lua)
 - [Toggleterm](https://github.com/akinsho/toggleterm.nvim)
 - [Lualine](https://github.com/nvim-lualine/lualine.nvim)
@@ -37,7 +36,6 @@ Spacebar is set as the default mapleader.
 
 ```
 <leader>q  : Force quit (:qa!)
-<leader>a  : Alpha menu (:Alpha)
 <leader>e  : File explorer (:NvimTreeToggle)
 <leader>f  : File finder (:Telescope file_finder)
 <leader>F  : Grep finder (:Telescope live_grep)
@@ -53,7 +51,5 @@ Spacebar is set as the default mapleader.
 ```
 
 ### ✶ Location.
-
-Replaces the `nvim` folder under `.config`.
 
 > ~/.config/nvim/

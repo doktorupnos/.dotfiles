@@ -2,7 +2,6 @@ local lsp = require('lsp-zero').preset({})
 
 lsp.ensure_installed({
 	'lua_ls',
-	'eslint',
 	'clangd',
 	'gopls'
 })
@@ -14,7 +13,6 @@ lsp.format_on_save({
 	},
 	servers = {
 		['lua_ls'] = { 'lua' },
-		['eslint'] = { 'javascript' },
 		['clangd'] = { 'c', 'c++' },
 		['gopls'] = { 'go' }
 	}
