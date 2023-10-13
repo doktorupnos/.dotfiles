@@ -1,0 +1,88 @@
+/* General options */
+configuration {
+	modi: "drun";
+	font: "Ubuntu Nerd Font Bold 12";
+	show-icons: true;
+	drun-display-format: "{icon}    {name}";
+	display-drun: "";
+	kb-remove-to-eol: "";
+	kb-accept-entry: "Control+m,Return,KP_Enter";
+	kb-row-up: "Control+k,Up";
+	kb-row-down: "Control+j,Down";
+	timeout {
+		action: "kb-cancel";
+		delay:  0;
+	}
+	filebrowser {
+		sorting-method:    "name";
+		directories-first: true;
+	}
+}
+
+/* Color scheme */
+@theme "/dev/null"
+* {
+	bg:     #000000;
+	bg-alt: #444444;
+
+	fg:     #ffffff;
+	fg-alt: #888888;
+
+	background-color: @bg;
+  
+	border:  0;
+	margin:  0;
+	padding: 0;
+	spacing: 0;
+}
+
+/* Window options */
+window {
+	width:         25%;
+	border:        2px;
+	border-color:  #ffffff;
+	border-radius: 10px;
+}
+
+/* Element options */
+element {
+	padding:    8px 8px;
+	text-color: @fg-alt;
+}
+element selected {
+	text-color: @fg;
+}
+element-text {
+	background-color: inherit;
+	text-color:       inherit;
+	vertical-align:   0.5;
+}
+element-icon {
+	size: 35px;
+}
+
+/* Other options */
+entry {
+	padding: 10px;
+	text-color: @fg;
+	background-color: @bg-alt;
+}
+prompt {
+	enabled: true;
+	padding: 10 0 0 10;
+	text-color: @fg;
+	background-color: @bg-alt;
+}
+inputbar {
+	children: [prompt, entry];
+}
+listview {
+	lines:   8;
+	columns: 1;
+	padding: 8 10;
+	background-color: @bg;
+}
+mainbox {
+	children: [inputbar, listview];
+	background-color: @bg;
+}
