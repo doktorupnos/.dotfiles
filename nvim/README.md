@@ -16,6 +16,7 @@ Once you've installed the plugin manager, run the `:so` and `:PackerSync` comman
 - [Neovim](https://neovim.io/) (0.9+)
 - [Nerdfonts](https://www.nerdfonts.com/)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fd](https://github.com/sharkdp/fd)
 
 ### ✶ Plugins
 
@@ -36,7 +37,8 @@ Spacebar is set as the default mapleader.
 
 ```
 <leader>q  : Force quit (:qa!)
-<leader>e  : File explorer (:NvimTreeToggle)
+<leader>e  : File explorer focus (:NvimTreeToggle)
+<leader>E  : File explorer toggle (:NvimTreeToggle)
 <leader>f  : File finder (:Telescope file_finder)
 <leader>F  : Grep finder (:Telescope live_grep)
 <leader>r  : Recent files (:Telescope oldfiles)

@@ -2,7 +2,8 @@ local wk = require("which-key")
 wk.register({
 	["<leader>"] = {
 		q = { "<cmd>qa!<cr>", "Force quit" },
-		e = { "<cmd>NvimTreeToggle<cr>", "File explorer" },
+		e = { "<cmd>NvimTreeFocus<cr>", "File explorer focus" },
+		E = { "<cmd>NvimTreeToggle<cr>", "File explorer toggle" },
 		f = { "<cmd>Telescope find_files<cr>", "File finder" },
 		F = { "<cmd>Telescope live_grep<cr>", "Grep finder" },
 		r = { "<cmd>Telescope oldfiles<cr>", "Recent files" },
@@ -13,7 +14,8 @@ wk.register({
 		},
 		s = { "<cmd>BufferLinePick<cr>", "Select tab" },
 		x = { "<cmd>BufferLinePickClose<cr>", "Close tab" },
-		c = { "<cmd>ColorizerToggle<cr>", "Toggle colorizer" }
+		c = { "<cmd>ColorizerToggle<cr>", "Toggle colorizer" },
+		l = { "<cmd>%s", "test" }
 	},
 	["<C-s>"] = { "<cmd>w<cr>", "Save file" },
 	["<C-a>"] = { "<esc>ggVG", "Select whole document" },
