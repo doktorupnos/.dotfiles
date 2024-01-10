@@ -1,0 +1,96 @@
+#---------------#
+# Color Options #
+# - Oxocarbon - #
+#---------------#
+
+[colors.primary]
+background = "#080808"
+foreground = "#ffffff"
+
+[colors.normal]
+black   = "#262626"
+white   = "#dde1e6"
+red     = "#ee5396"
+green   = "#42be65"
+blue    = "#33b1ff"
+cyan    = "#3ddbd9"
+magenta = "#ff7eb6"
+yellow  = "#ffe97b"
+
+[colors.bright]
+black   = "#393939"
+white   = "#ffffff"
+red     = "#ee5396"
+green   = "#42be65"
+blue    = "#33b1ff"
+cyan    = "#3ddbd9"
+magenta = "#ff7eb6"
+yellow	= "#ffe97b"
+
+#--------------#
+# Font Options #
+#--------------#
+
+[font]
+size = 8.0
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style  = "Regular"
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style  = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style  = "Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+#----------------#
+# Window Options #
+#----------------#
+
+[window]
+dynamic_title = true
+opacity       = 1
+
+[window.padding]
+x = 12
+y = 12
+
+#-----------------#
+# Keybind Options #
+#-----------------#
+
+[[keyboard.bindings]]
+action = "Copy"
+key    = "C"
+mods   = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Paste"
+key    = "V"
+mods   = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key    = "Equals"
+mods   = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key    = "Minus"
+mods   = "Control"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key    = "Key0"
+mods   = "Control"
