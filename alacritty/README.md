@@ -20,4 +20,4 @@ Ctrl+"0"       : Reset font size
 
 ### ✶ Location.
 
-> ~/.config/alacritty.yml
+> ~/.config/alacritty.toml
